@@ -1,0 +1,11 @@
+
+
+chromadb_store
+
+prod_rag_venv
+
+__pycache__/
+src/chromadb_store/
+
+
+.DS_Store

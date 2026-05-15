@@ -6,6 +6,7 @@ prod_rag_venv
 
 __pycache__/
 src/chromadb_store/
+config
 
 
 .DS_Store

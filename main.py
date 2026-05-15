@@ -18,7 +18,8 @@ def health_check():
 @app.post("/ask") #routing 
 def ask_question(request:QueryRequest):
     query = request.query
-    answer = run_rag_pipeline(query)
+    answer  = run_rag_pipeline(query)
     return {"query": query,"answer": answer}
+
 
 

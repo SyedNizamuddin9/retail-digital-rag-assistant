@@ -1,0 +1,19 @@
+
+
+[
+  {
+    "question": "What is the refund timeline for prepaid orders after return approval?",
+    "ground_truth": "Refunds for prepaid orders are processed within 5 to 7 business days after return approval.",
+    "expected_section": "REFUND POLICY"
+  },
+  {
+    "question": "Is cashback the same as refund?",
+    "ground_truth": "No, cashback is different from refunds and cannot be requested as direct bank transfer.",
+    "expected_section": "PROMOTIONAL CASHBACK SETTLEMENT POLICY"
+  },
+  {
+    "question": "What happens if EMI transaction fails but amount is debited?",
+    "ground_truth": "The bank usually reverses the amount within 5 to 7 business days and EMI reversals are handled by the issuing bank.",
+    "expected_section": "FAILED EMI TRANSACTION POLICY"
+  }
+]
